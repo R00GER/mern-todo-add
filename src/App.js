@@ -21,7 +21,7 @@ const App = () => {
     },
   ]);
 
-  const addNewTodo = (event, user, task) => {
+  const addNewTodo = (event, task) => {
     event.preventDefault();
 
     const newTodo = {
